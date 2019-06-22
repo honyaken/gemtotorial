@@ -3,7 +3,7 @@ RSpec.describe SayHelloGem do
     expect(SayHelloGem::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "sayhello test" do
+    expect(SayHelloGem.sayhello).to eq("Hello, World!")
   end
 end
